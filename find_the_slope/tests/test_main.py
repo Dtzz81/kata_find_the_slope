@@ -15,7 +15,7 @@ def test_same_y_coords():
     # act
     result = find_slope(points)
     # assert
-    assert result == 0
+    assert result == "0"
 
 def test_various_coords():
     # arrange
@@ -23,7 +23,7 @@ def test_various_coords():
     # act
     result = find_slope(points)
     # assert
-    assert result == 5
+    assert result == "5"
 
 def test_another_from_fcc_test():
     # arrange
@@ -31,4 +31,4 @@ def test_another_from_fcc_test():
     # act
     result = find_slope(points)
     # assert
-    assert result == 6
+    assert result == "6"
