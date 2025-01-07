@@ -15,4 +15,5 @@ def test_same_y_coords():
     # act
     result = find_slope(x1, y1, x2, y2)
     # assert
-    assert result == "undefined"
+    assert result == 0
+
