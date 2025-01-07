@@ -32,3 +32,11 @@ def test_another_from_fcc_test():
     result = find_slope(points)
     # assert
     assert result == "6"
+
+def test_negative_numbers():
+    # arrange
+    points = [5, 59, 76, -9]
+    # act
+    result = find_slope(points)
+    # assert
+    assert result == "-1"

@@ -3,5 +3,5 @@ def find_slope(points):
     if x1 == x2:
         return "undefined"
     else:
-        slope = (y2 - y1) / (x2 - x1)
-        return str(int(slope))
+        slope = (y2 - y1) // (x2 - x1) # integer division
+        return str((slope))
